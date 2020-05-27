@@ -19,3 +19,21 @@ hello('Red')
 #similar to how in a loop there is an implicit continue statement
 
 #on page 91 out of 505
+
+def testing(a,b):
+    p = a + b
+    return p,a,b
+
+red,t,y = testing(5,7)
+
+#difference between local and global variables
+#a,b,p are all local variable
+#the function will return p,a,b
+#red,t,y are a global variable
+#variables are returned and defined in the above order
+#note that in R, return only outputs a single thing, so you would need to
+#return a list then break that list into its constituent parts.
+
+#next they go into try except finally clauses.
+
+#finished!
