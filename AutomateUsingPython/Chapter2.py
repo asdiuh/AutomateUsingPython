@@ -4,3 +4,5 @@
 #range function learned already
 #learn importing
 #like import matlibplot.pyplot etc.
+#import and from are the same
+#finished chapter 2
