@@ -27,4 +27,15 @@ picnicItems = {'apples': 5, 'cups': 2}
 'I am bringing ' + str(picnicItems.get('eggs', 0)) + ' eggs.'
 'I am bringing ' + str(picnicItems['eggs']) + ' eggs.'
 #you can think of get as an 'if error' functino from excel
-#134
+#can nest dictionaries within dictionaries
+
+allGuests = {'Alice': {'apples': 5, 'pretzels': 12},
+             'Bob': {'ham sandwiches': 3, 'apples': 2},
+             'Carol': {'cups': 3, 'apple pies': 1}}
+
+
+
+
+
+
+
