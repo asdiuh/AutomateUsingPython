@@ -37,3 +37,10 @@ for i in range(len(message)):
 #
 print('red\n')
 print(r'red\n')
+
+
+import re
+#\d stands for digit in regEx - a number between 0 and 9
+phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+mo = phoneNumRegex.search('my number is 555-555-4242')
+print('A phone number was found: ', mo.group())
